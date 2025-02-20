@@ -38,7 +38,7 @@ body {
    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-img #logo {
+#logo {
    column-span: 3;
    width: 100%;
 }
