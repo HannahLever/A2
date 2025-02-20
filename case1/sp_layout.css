@@ -24,7 +24,7 @@ body {
    min-width: 640px;
    max-width: 960px;
    align-content: center;
-   margin: 0 auto 0 auto;
+   margin: 0 auto;
    min-height: 100%;
 }
 
@@ -52,7 +52,6 @@ aside {
    column-span: 2;
 }
 
-
 /* Horizontal Navigation List Styles */
 
 nav.horizontal li {
@@ -63,8 +62,15 @@ nav.horizontal li {
 
 /* Section Styles */
 
+section img {
+   width: 50%;
+   margin: 0 auto;
+}
 
-
+section p {
+   width: 70%;
+   margin: 0 auto;
+}
 
 /* Customer Comment Styles */
 
