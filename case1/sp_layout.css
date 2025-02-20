@@ -14,6 +14,7 @@
 */
 
 /* Window and Body Styles */
+
 html {
    height: 100%;
 }
@@ -27,11 +28,29 @@ body {
    min-height: 100%;
 }
 
+img {
+   display: block;
+}
+
 /* CSS Grid Styles */
 
+body {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
+img #logo {
+   column-span: 3;
+   width: 100%;
+}
 
+nav.horizontal, footer {
+   column-span: 4;
+}
 
+aside {
+   column-span: 2;
+}
 
 
 /* Horizontal Navigation List Styles */
