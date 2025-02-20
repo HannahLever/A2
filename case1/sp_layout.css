@@ -39,16 +39,16 @@ body {
 }
 
 #logo {
-   column-span: 3;
+   grid-column: span 3;
    width: 100%;
 }
 
 nav.horizontal, footer {
-   column-span: 4;
+   grid-column: span 4;
 }
 
 aside {
-   column-span: 2;
+   grid-column: span 2;
 }
 
 /* Horizontal Navigation List Styles */
